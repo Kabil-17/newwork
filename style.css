@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -8,7 +8,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 15px;  
-    position: ;
 }
 #navmain img{
     height: 45px;
@@ -53,7 +52,7 @@
 }
 
 #intro-n{
-    height: 780px;
+    height: 640px;
   display: flex;
   justify-content: center;
   margin: 0 100px;
@@ -65,7 +64,7 @@
     background-image:url(./images/about-img.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    padding: 50px;
     
 }
 #intro-sec{
@@ -98,24 +97,131 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 0 100px;
-
+    height: 120px;
 }
 #logo img{
     height: 50px;
 }
-#logo h1{
+#logo h2{
     font-family: "Merienda", serif;
     color: #212529;
+    padding-bottom:100px;
 }
 #facilities{
     border:1px solid gainsboro;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 100px;
+}
+.facility{
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 .facility h2{
     font-family: "Merienda", serif;
+    color: #212529;
 }
 .facility p{
     font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    color: #212529;
 }
+#logo2{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px;
+    height: 120px;
+
+}
+#logo2 img{
+    height: 50px;
+}
+#logo2 h2{
+    font-family: "Merienda", serif;
+    color: #212529;
+    padding-bottom:100px;
+}
+#our-facility{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid gainsboro;
+    margin: 0 100px;
+}
+.varity {
+    border: 1px solid gainsboro;
+    padding: 0 0 8px 8px;
+    font-weight: 400;
+    color: #212529;
+}
+h2{
+    font-family: "Merienda", serif;
+    color: #212529;
+}
+#logo3{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px;
+    height: 120px;
+
+}
+#logo3 img{
+    height: 50px;
+}
+#logo3 h2{
+    font-family: "Merienda", serif;
+    color: #212529;
+    padding-bottom:100px;
+}
+#gallery{
+    border: 1px solid rgb(34, 30, 30);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 100px;
+    
+}
+#gal1{
+    background-image: url(./images/gallery-1.webp);
+    height: 300px;
+    background-size: cover;
+    margin: 0 10px 25px 10px;
+}
+#gal2{
+    background-image: url(./images/gallery-2.webp);
+    height: 300px;
+    background-size: cover;
+}
+#gal3{
+    background-image: url(./images/gallery-3.webp);
+    height: 3px;
+    background-size: cover;
+    margin:0 10px 0 10px;
+}
+#gal4{
+    background-image: url(./images/gallery-4.webp);
+    height: 300px;
+    background-size: cover;
+}
+#gal5{
+    background-image: url(./images/gallery-5.webp);
+    height: 300px;
+    background-size: cover;
+}
+#gal6{
+    background-image: url(./images/gallery-6.webp);
+    height: 300px;
+    background-size: cover;
+}
+
