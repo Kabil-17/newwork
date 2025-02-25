@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#navmain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;  
+    position: ;
+}
+#navmain img{
+    height: 45px;
+}
+#navlink a{
+    text-decoration: none;
+    color: gray;
+}
+#hero{
+    background-image:url(./images/home-bg.jpg);
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#intro{
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding-top: 230px;
+}
+#intro h1{
+    font-family: "Merienda", serif;
+}
+#intro p{
+    font-family: "Nunito", serif;
+    font-size:22px;
+    font-weight: 400;
+    padding:5px;
+}
+#about-b{
+    color: rgb(217, 217, 226);
+    background-color:#0B5ED7;
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+    font-size: large;
+    border-color:#0B5ED7;
+}
+
+#intro-n{
+    height: 780px;
+  display: flex;
+  justify-content: center;
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#intro-img{
+    border: 1px solid gainsboro;
+    background-image:url(./images/about-img.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#intro-sec{
+    border: 1px solid gainsboro;
+}
+#ab-bor{
+    border: 1px solid #0DCAF0;
+    background-color: #0DCAF0;
+    border-radius: 10px;
+    text-align: center;
+    height: 230px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+}
+#ab-bor h1{
+    font-family: "Merienda", serif;
+} 
+#ab-bor p{
+    font-family: "Nunito", serif;
+    font-size:20px;
+    padding: 20px;
+}
+#logo{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 100px;
+
+}
+#logo img{
+    height: 50px;
+}
+#logo h1{
+    font-family: "Merienda", serif;
+    color: #212529;
+}
+#facilities{
+    border:1px solid gainsboro;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.facility h2{
+    font-family: "Merienda", serif;
+}
+.facility p{
+    font-family: "Nunito", serif;
+}
