@@ -181,7 +181,6 @@ h2{
     justify-content: center;
     margin: 0 100px;
     height: 120px;
-
 }
 #logo3 img{
     height: 50px;
@@ -189,14 +188,12 @@ h2{
 #logo3 h1{
     font-family: "Merienda", serif;
     color: #212529;
-    
 }
 #gallery{
     border: 1px solid gainsboro;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 100px;
-    
 }
 .gal img{
     height: 300px;
@@ -214,7 +211,6 @@ h2{
     justify-content: center;
     margin: 0 100px;
     height: 120px;
-
 }
 #logo4 img{
     height: 50px;
@@ -228,7 +224,6 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 100px;
-    
 }
 .member {
     border: 1px solid gainsboro;
@@ -251,7 +246,6 @@ h2{
     justify-content: center;
     margin: 0 100px;
     height: 120px;
-
 }
 #logo5 img{
     height: 50px;
@@ -269,7 +263,6 @@ h2{
 }
 #con-img{
     border: 1px solid gainsboro;
-    
 }
 #form{
    border: 1px solid gainsboro; 
