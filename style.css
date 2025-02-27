@@ -3,6 +3,12 @@
     padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
+#topbar{
+    position: sticky;
+}
 #navmain{
     display: flex;
     justify-content: space-between;
@@ -15,6 +21,7 @@
 #navlink a{
     text-decoration: none;
     color: gray;
+    padding-left: 7px;
 }
 #hero{
     background-image:url(./images/home-bg.jpg);
@@ -45,7 +52,6 @@
     color: rgb(217, 217, 226);
     background-color:#0B5ED7;
     height: 50px;
-    width: 90px;
     border-radius: 15px;
     font-size: large;
     border-color:#0B5ED7;
@@ -104,10 +110,10 @@
 #logo img{
     height: 50px;
 }
-#logo h2{
+#logo h1{
     font-family: "Merienda", serif;
     color: #212529;
-    padding-bottom:100px;
+    
 }
 #facilities{
     border:1px solid gainsboro;
@@ -144,10 +150,10 @@
 #logo2 img{
     height: 50px;
 }
-#logo2 h2{
+#logo2 h1{
     font-family: "Merienda", serif;
     color: #212529;
-    padding-bottom:100px;
+   
 }
 #our-facility{
     display: grid;
@@ -180,48 +186,137 @@ h2{
 #logo3 img{
     height: 50px;
 }
-#logo3 h2{
+#logo3 h1{
     font-family: "Merienda", serif;
     color: #212529;
-    padding-bottom:100px;
+    
 }
 #gallery{
-    border: 1px solid rgb(34, 30, 30);
+    border: 1px solid gainsboro;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 100px;
     
 }
-#gal1{
-    background-image: url(./images/gallery-1.webp);
+.gal img{
     height: 300px;
-    background-size: cover;
-    margin: 0 10px 25px 10px;
+    width: 435px;
+    padding-left: 3px;
+    border: 1px solid gainsboro;
 }
-#gal2{
-    background-image: url(./images/gallery-2.webp);
+#logo4{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px;
+    height: 120px;
+
+}
+#logo4 img{
+    height: 50px;
+}
+#logo4 h1{
+    font-family: "Merienda", serif;
+    color: #212529;
+}
+#team{
+    border: 1px solid gainsboro;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 100px;
+    
+}
+.member {
+    border: 1px solid gainsboro;
+}
+.member img{
+    height: 400px;
+    width: 400px;
+    margin: 0 10px 0 20px;
+}
+.member div{
+    margin-left: 20px;
+}
+#logo5{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px;
+    height: 120px;
+
+}
+#logo5 img{
+    height: 50px;
+}
+#logo5 h1{
+    font-family: "Merienda", serif;
+    color: #212529;
+}
+#contact{
+    border: 1px solid gainsboro;
+    height: 640px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 100px;
+}
+#con-img{
+    border: 1px solid gainsboro;
+    
+}
+#form{
+   border: 1px solid gainsboro; 
+}
+form{
+    border: 2px solid black;
     height: 300px;
-    background-size: cover;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
 }
-#gal3{
-    background-image: url(./images/gallery-3.webp);
-    height: 3px;
-    background-size: cover;
-    margin:0 10px 0 10px;
+form h1{
+    text-align: center;
+    margin-bottom: 40px;
 }
-#gal4{
-    background-image: url(./images/gallery-4.webp);
-    height: 300px;
-    background-size: cover;
+input{
+    border-color: black;
+    width: 400px;
+    margin-bottom: 25px;
+    padding: 15px;
 }
-#gal5{
-    background-image: url(./images/gallery-5.webp);
-    height: 300px;
-    background-size: cover;
+button{
+    background-color: #CC9966;
+    border-color: white;
+    color: white;
+    height: 90px;
+    width: 120px;padding: 15px;
 }
-#gal6{
-    background-image: url(./images/gallery-6.webp);
-    height: 300px;
-    background-size: cover;
+#review{
+    border: 1px solid gainsboro;
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    margin: 0 100px;
 }
 
+.mail {
+    border: 1px solid gainsboro;
+    padding: 20px;
+}
+.cir{
+    background-color: #BE9C79;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+.mail p{
+    font-size: 25px;
+}
